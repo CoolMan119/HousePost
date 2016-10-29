@@ -9,4 +9,6 @@ If you would like to contribution to HousePost, You can submit a pull request. I
 
 I hope you enjoy HousePost!
 
-- House
+Credits:
+
+- House (Making the program)
