@@ -2,7 +2,11 @@ local files = {
     [1] = {
         "client",
         "https://raw.githubusercontent.com/CoolMan119/HousePost/master/client.lua"
-    }  
+    },
+    [2] = {
+        "server",
+        "https://raw.githubusercontent.com/CoolMan119/HousePost/master/server.lua"
+    }
 }
 if term.isColor() == false then
    print("Sorry, But you need an Advanced PC to run this!")
