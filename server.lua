@@ -1,6 +1,16 @@
 -- HousePost Server
 -- Made by houseofkraft
 
+-- Functions
+local function init()
+  while true do
+    id, message, info = rednet.receive()
+    if message == "serverlookup" then
+      rednet.send(id, "sucess")
+    end
+  end
+end
+
 -- Side list
 local sides = {
   -- We will use these sides when it comes to the modem checking part
